@@ -1,0 +1,106 @@
+ID_Cliente,Nombre_Cliente,Edad,Genero,Ciudad
+1,Alice,30,F,Buenos Aires
+2,Bob,25,M,Córdoba
+3,Charlie,35,M,Mendoza
+4,Daniela,28,F,Rosario
+5,Elena,40,F,Salta
+6,José,39,F,La Plata
+7,Laura,65,M,Mendoza
+8,Sofía,42,M,Mar del Plata
+9,José,42,F,La Plata
+10,María,56,M,Buenos Aires
+11,María,48,F,Rosario
+12,Laura,40,M,Mendoza
+13,María,40,F,Mendoza
+14,Sofía,36,F,La Plata
+15,Ana,35,M,Buenos Aires
+16,Laura,46,M,Rosario
+17,Juan,65,F,Córdoba
+18,Juan,31,M,Salta
+19,Juan,34,M,Mar del Plata
+20,Laura,19,M,Rosario
+21,María,34,M,Mendoza
+22,Juan,57,M,Salta
+23,Carlos,20,F,Salta
+24,Luis,59,M,La Plata
+25,Laura,46,F,Mendoza
+26,José,53,M,Mendoza
+27,Laura,56,F,Buenos Aires
+28,Ana,18,F,Mendoza
+29,María,49,M,Rosario
+30,Sofía,54,F,Córdoba
+31,María,45,F,Córdoba
+32,Sofía,43,M,Buenos Aires
+33,María,42,M,Buenos Aires
+34,Juan,27,F,Córdoba
+35,Ana,45,F,Mendoza
+36,Carlos,62,M,Salta
+37,Carlos,49,F,La Plata
+38,Sofía,62,M,Salta
+39,Ana,40,M,Mar del Plata
+40,Laura,61,F,Rosario
+41,Ana,53,M,Mar del Plata
+42,Ana,58,F,La Plata
+43,Luis,39,F,Buenos Aires
+44,Carlos,60,M,Buenos Aires
+45,José,22,M,Buenos Aires
+46,Ana,60,F,La Plata
+47,Juan,52,F,Mar del Plata
+48,Carlos,37,F,Mendoza
+49,Luis,51,M,Córdoba
+50,Sofía,46,F,Salta
+51,Ana,55,F,Salta
+52,Luis,53,F,Buenos Aires
+53,Ana,64,M,Mar del Plata
+54,Carlos,25,M,Rosario
+55,Laura,52,M,Mendoza
+56,Laura,18,F,Buenos Aires
+57,Sofía,55,F,Mar del Plata
+58,María,48,F,Buenos Aires
+59,Juan,55,M,Buenos Aires
+60,Juan,26,M,Rosario
+61,Carlos,44,F,Salta
+62,Juan,44,M,Salta
+63,Sofía,57,F,Mar del Plata
+64,Carlos,46,M,Salta
+65,Luis,57,F,Buenos Aires
+66,Laura,33,F,Mar del Plata
+67,Juan,39,F,Rosario
+68,José,47,F,Mendoza
+69,Ana,46,F,Buenos Aires
+70,Carlos,23,M,Salta
+71,Juan,32,F,Córdoba
+72,Ana,29,M,Mendoza
+73,Laura,29,M,Mar del Plata
+74,Juan,48,F,Salta
+75,Ana,44,F,Mendoza
+76,Luis,39,F,La Plata
+77,Sofía,50,F,Salta
+78,Juan,34,F,Buenos Aires
+79,Laura,51,M,Mendoza
+80,Juan,65,F,Buenos Aires
+81,Juan,48,M,Buenos Aires
+82,Sofía,48,M,Salta
+83,Laura,31,F,Córdoba
+84,María,62,M,Buenos Aires
+85,Juan,65,M,Rosario
+86,Luis,59,M,Mendoza
+87,Laura,20,M,Mendoza
+88,Juan,49,M,Mar del Plata
+89,Laura,54,M,Córdoba
+90,María,55,M,Buenos Aires
+91,Laura,31,F,Rosario
+92,Laura,58,M,Mar del Plata
+93,Carlos,50,F,Córdoba
+94,José,18,F,Mar del Plata
+95,Juan,40,F,Mendoza
+96,Carlos,65,F,Buenos Aires
+97,Luis,51,F,Buenos Aires
+98,Ana,19,M,Mendoza
+99,Laura,30,M,Córdoba
+100,Carlos,45,M,La Plata
+101,Laura,41,M,Buenos Aires
+102,Ana,23,F,Buenos Aires
+103,José,28,M,Córdoba
+104,Laura,53,F,Rosario
+105,José,65,M,Mendoza

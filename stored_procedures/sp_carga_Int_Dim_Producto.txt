@@ -1,0 +1,5 @@
+CREATE PROCEDURE [dbo].[sp_carga_Int_Dim_Producto] AS
+BEGIN
+    INSERT INTO Int_Dim_Producto 
+    SELECT * FROM Stg_Dim_Producto;
+END;

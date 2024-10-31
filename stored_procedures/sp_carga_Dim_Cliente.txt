@@ -1,0 +1,18 @@
+CREATE PROCEDURE [dbo].[sp_carga_Dim_Cliente] AS
+BEGIN
+    PRINT 'Intentando insertar los siguientes registros:';
+    SELECT DISTINCT ID_Cliente, Nombre_Cliente, Edad, Genero, Ciudad
+    FROM Int_Dim_Cliente AS i
+    WHERE NOT EXISTS (
+        SELECT 1 FROM Dim_Cliente AS d 
+        WHERE d.ID_Cliente = i.ID_Cliente
+    );
+
+    INSERT INTO Dim_Cliente (ID_Cliente, Nombre_Cliente, Edad, Genero, Ciudad)
+    SELECT DISTINCT ID_Cliente, Nombre_Cliente, Edad, Genero, Ciudad
+    FROM Int_Dim_Cliente AS i
+    WHERE NOT EXISTS (
+        SELECT 1 FROM Dim_Cliente AS d 
+        WHERE d.ID_Cliente = i.ID_Cliente
+    );
+END;

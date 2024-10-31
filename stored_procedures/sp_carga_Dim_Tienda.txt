@@ -1,0 +1,17 @@
+CREATE PROCEDURE [dbo].[sp_carga_Dim_Tienda] AS
+BEGIN
+    WITH CTE AS (
+        SELECT *, ROW_NUMBER() OVER (PARTITION BY ID_Tienda ORDER BY ID_Tienda) AS row_num
+        FROM Int_Dim_Tienda
+    )
+    DELETE FROM CTE WHERE row_num > 1;
+
+    INSERT INTO Dim_Tienda (ID_Tienda, Nombre_Tienda, Ubicacion)
+    SELECT DISTINCT ID_Tienda, Nombre_Tienda, Ubicacion
+    FROM Int_Dim_Tienda AS i
+    WHERE NOT EXISTS (
+        SELECT 1 
+        FROM Dim_Tienda AS d 
+        WHERE d.ID_Tienda = i.ID_Tienda
+    );
+END;

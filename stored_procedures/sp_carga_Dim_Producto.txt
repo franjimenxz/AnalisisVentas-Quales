@@ -1,0 +1,11 @@
+CREATE PROCEDURE [dbo].[sp_carga_Dim_Producto] AS
+BEGIN
+    INSERT INTO Dim_Producto (ID_Producto, Nombre_Producto, Categoria, Marca, Precio_Costo, Precio_Venta)
+    SELECT ID_Producto, Nombre_Producto, Categoria, Marca, Precio_Costo, Precio_Venta
+    FROM Int_Dim_Producto
+    WHERE NOT EXISTS (
+        SELECT 1 
+        FROM Dim_Producto 
+        WHERE Dim_Producto.ID_Producto = Int_Dim_Producto.ID_Producto
+    );
+END;

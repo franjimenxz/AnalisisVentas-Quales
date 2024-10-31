@@ -1,0 +1,11 @@
+CREATE PROCEDURE [dbo].[sp_carga_Fact_Ventas] AS
+BEGIN
+    INSERT INTO Fact_Ventas (ID_Venta, Fecha_Venta, ID_Tienda, ID_Producto, ID_Cliente, Cantidad, Importe_Venta, Tiempo_Key)
+    SELECT DISTINCT ID_Venta, Fecha_Venta, ID_Tienda, ID_Producto, ID_Cliente, Cantidad, Importe_Venta, Fecha_Venta
+    FROM Int_Fact_Ventas AS i
+    WHERE NOT EXISTS (
+        SELECT 1 
+        FROM Fact_Ventas AS f 
+        WHERE f.ID_Venta = i.ID_Venta
+    );
+END;
